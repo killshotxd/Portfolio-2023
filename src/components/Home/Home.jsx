@@ -53,14 +53,14 @@ const Home = () => {
 
           <div
             className="container d-flex flex-column justify-content-center align-items-center"
-            style={{ marginTop: "8rem" }}
+            style={{ marginTop: "12rem" }}
           >
             <h2 className="fw-bolder">
               Hello, Myself{" "}
               <span style={{ color: "#005b87" }}>MOHD HASSAN</span> 😁
             </h2>
             <h3 className="fw-bolder mt-3">
-              Welcome to my Portfolio ({new Date().getFullYear()})
+              Welcome To My Portfolio ({new Date().getFullYear()})
             </h3>
             <h3 className="fw-bolder mt-3">
               {" "}
