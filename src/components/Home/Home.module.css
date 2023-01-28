@@ -727,6 +727,7 @@
 
 .hvr {
   cursor: pointer;
+  z-index: 999;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);

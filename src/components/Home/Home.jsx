@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import styles from "./Home.module.css";
 import { BsGithub } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
+import Section1 from "../Sections/Section1";
 const Home = () => {
   const myRef = useRef(null);
   const executeScroll = () => myRef.current.scrollIntoView();
@@ -68,9 +69,7 @@ const Home = () => {
                 options={{
                   strings: [
                     "I'm a Frontend Web Developer",
-                    "I'm Familiar with these Tech Stacks :",
-                    "HTML, CSS, JavaScript, NodeJs, ReactJs, NextJs, FireBase, TailwindCss and BootStrap",
-                    "Explore More 👇🏻",
+                    "I develop modern responsive websites and webApps.",
                   ],
                   autoStart: true,
                   loop: true,
@@ -90,7 +89,7 @@ const Home = () => {
         </section>
 
         <section style={{ height: "100vh" }} ref={myRef} id="2">
-          Hello
+          <Section1 />
         </section>
       </div>
     </>
