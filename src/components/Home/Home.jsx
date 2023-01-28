@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import styles from "./Home.module.css";
-import { BsGithub } from "react-icons/bs";
+
 import Typewriter from "typewriter-effect";
 import Section1 from "../Sections/Section1";
 const Home = () => {
@@ -15,41 +15,6 @@ const Home = () => {
 
         {/* START HOME */}
         <section id="1" style={{ height: "100vh" }}>
-          <div className="container">
-            <div className="row">
-              <div className="col ">
-                <div
-                  style={{ cursor: "pointer", width: "fit-content !important" }}
-                  className="d-flex align-items-center justify-content-center gap-2"
-                >
-                  <BsGithub size={40} />
-                  <p className="m-0 p-0 fs-2 fw-bolder">
-                    {" "}
-                    <Typewriter
-                      options={{
-                        strings: ["Mohd Hassan", "Web Developer"],
-                        autoStart: true,
-                        loop: true,
-                      }}
-                    />
-                  </p>
-                </div>
-              </div>
-              <div className="col">
-                <div className="d-flex align-items-center justify-content-center gap-5">
-                  <p className={`m-0 p-0 fs-3 fw-bolder ${styles.hvr}`}>
-                    Connect?
-                  </p>
-                  <p className={`m-0 p-0 fs-3 fw-bolder ${styles.hvr}`}>
-                    Projects
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* HEADER END */}
-
           {/* HEADINGS */}
 
           <div

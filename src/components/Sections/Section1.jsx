@@ -14,7 +14,9 @@ import {
   SiVisualstudiocode,
   SiVite,
 } from "react-icons/si";
+import { Navigate, useNavigate } from "react-router-dom";
 const Section1 = () => {
+  const Navigate = useNavigate();
   const myRef = useRef(null);
   const executeScroll = () => myRef.current.scrollIntoView();
   return (
@@ -146,20 +148,15 @@ const Section1 = () => {
         <div className="container">
           <div className="row" style={{ marginTop: "6rem" }}>
             <button
-              onClick={executeScroll}
+              onClick={() => {
+                Navigate("/exp");
+              }}
               className={` mt-3 ${styles.button55}`}
             >
-              Know More
+              My Experience
             </button>
           </div>
         </div>
-      </section>
-      <section
-        style={{ height: "100vh", marginTop: "5rem" }}
-        ref={myRef}
-        id="2"
-      >
-        <Section2 />
       </section>
     </>
   );
