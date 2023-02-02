@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Header from "./components/Header/Header";
 import Section2 from "./components/Sections/Section2";
+import Projects from "./components/Projects/Projects";
 
 const App = () => {
   const [cursorXY, setCursorXY] = useState({ x: -100, y: -100 });
@@ -31,6 +32,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/exp" element={<Section2 />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </BrowserRouter>
   );

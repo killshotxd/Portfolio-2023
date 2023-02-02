@@ -23,7 +23,7 @@ const Home = () => {
           >
             <h2 className="fw-bolder">
               Hello, Myself{" "}
-              <span style={{ color: "#005b87" }}>MOHD HASSAN</span> 😁
+              <span style={{ color: "#005b87" }}>MOHD HASSAN</span> 🙋🏻‍♂️
             </h2>
             <h3 className="fw-bolder mt-3">
               Welcome To My Portfolio ({new Date().getFullYear()})

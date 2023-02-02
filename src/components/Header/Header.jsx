@@ -10,22 +10,15 @@ const Header = () => {
       <div className="container">
         <div className="row">
           <div className="col ">
-            <div
+            <a
+              href="https://github.com/killshotxd"
+              target="_blank"
               style={{ cursor: "pointer", width: "fit-content !important" }}
-              className="d-flex align-items-center justify-content-center gap-2"
+              className="d-flex z-3 align-items-center text-black text-decoration-none justify-content-center gap-2"
             >
               <BsGithub size={40} />
-              <p className="m-0 p-0 fs-2 fw-bolder">
-                {" "}
-                <Typewriter
-                  options={{
-                    strings: ["Mohd Hassan", "Web Developer"],
-                    autoStart: true,
-                    loop: true,
-                  }}
-                />
-              </p>
-            </div>
+              <p className="m-0  p-0 fs-2 fw-bolder"> Mohd Hassan</p>
+            </a>
           </div>
           <div className="col">
             <div className="d-flex align-items-center justify-content-center gap-5">
@@ -38,7 +31,14 @@ const Header = () => {
                 Home
               </p>
               <p className={`m-0 p-0 fs-3 fw-bolder ${styles.hvr}`}>Connect?</p>
-              <p className={`m-0 p-0 fs-3 fw-bolder ${styles.hvr}`}>Projects</p>
+              <p
+                onClick={() => {
+                  navigate("/projects");
+                }}
+                className={`m-0 p-0 fs-3 fw-bolder ${styles.hvr}`}
+              >
+                Projects
+              </p>
             </div>
           </div>
         </div>
