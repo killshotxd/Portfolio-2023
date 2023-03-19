@@ -21,7 +21,7 @@ const Header = () => {
             </a>
           </div>
           <div className="col">
-            <div className="d-flex align-items-center justify-content-center gap-5">
+            <div className="d-flex align-items-center justify-content-center gap-4 ">
               <p
                 onClick={() => {
                   navigate("/");

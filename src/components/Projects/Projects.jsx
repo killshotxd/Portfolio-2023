@@ -34,7 +34,7 @@ const Projects = () => {
 
                     <div className=" col" style={{ maxWidth: "fit-content" }}>
                       <img
-                        style={{ width: "35rem", minWidth: "10rem" }}
+                        style={{ width: "35rem", minWidth: "20rem" }}
                         className="img-fluid"
                         src="https://awesomescreenshot.s3.amazonaws.com/image/3556198/38123472-eca3d4940ec03557182fb079b6f7c937.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20230319%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230319T120837Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=e7d63e2b2b01fae4410fedd4ef41e2f081746b5996e185636297fe958001a6ee"
                         alt=""
@@ -78,7 +78,7 @@ const Projects = () => {
 
                     <div className=" col" style={{ maxWidth: "fit-content" }}>
                       <img
-                        style={{ width: "35rem", minWidth: "10rem" }}
+                        style={{ width: "35rem", minWidth: "20rem" }}
                         className="img-fluid"
                         src="https://awesomescreenshot.s3.amazonaws.com/image/3556198/38123685-6d2ea2962ec93854a315dbfb5e9ab5c4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20230319%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230319T122729Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=6789ab724bb5864084b231d4534a8f829679d502f2f0bb4c1125ad6390b8f3ab"
                         alt=""
@@ -122,7 +122,7 @@ const Projects = () => {
 
                     <div className=" col" style={{ maxWidth: "fit-content" }}>
                       <img
-                        style={{ width: "35rem", minWidth: "10rem" }}
+                        style={{ width: "35rem", minWidth: "20rem" }}
                         className="img-fluid"
                         src="https://awesomescreenshot.s3.amazonaws.com/image/3556198/38123706-d0c9c402318fa703b12cb70bdb4fa7e2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20230319%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230319T122828Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=5b4b09e8b61a689813b4f49281ec7d7089b8598ecff83dda799d3a0cdf6c2f19"
                         alt=""
@@ -167,7 +167,7 @@ const Projects = () => {
 
                     <div className=" col" style={{ maxWidth: "fit-content" }}>
                       <img
-                        style={{ width: "35rem", minWidth: "10rem" }}
+                        style={{ width: "35rem", minWidth: "20rem" }}
                         className="img-fluid"
                         src="https://awesomescreenshot.s3.amazonaws.com/image/3556198/38123799-731bd088d8d1f42d00ce6b79a26f0d06.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20230319%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230319T123458Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=1ab2f927bb0e4c597bb733e20d561ad4cea8679f81ecbee61f0d808c336f7798"
                         alt=""
