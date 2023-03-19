@@ -133,7 +133,7 @@ const Section1 = () => {
             </div>
           </div>
 
-          <div className="row mt-5">
+          {/* <div className="row mt-5">
             <h4 className="text-center mt-4 fw-bold">
               <RoughNotation type="underline" show={true}>
                 <span className="">
@@ -142,7 +142,7 @@ const Section1 = () => {
                 </span>
               </RoughNotation>
             </h4>
-          </div>
+          </div> */}
         </div>
 
         <div className="container">

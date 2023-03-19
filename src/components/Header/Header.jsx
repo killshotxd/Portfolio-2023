@@ -39,6 +39,14 @@ const Header = () => {
               >
                 Projects
               </p>
+              <p
+                onClick={() => {
+                  navigate("/exp");
+                }}
+                className={`m-0 p-0 fs-3 fw-bolder ${styles.hvr}`}
+              >
+                Experience
+              </p>
             </div>
           </div>
         </div>
