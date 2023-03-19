@@ -30,7 +30,7 @@ const Header = () => {
               >
                 Home
               </p>
-              <p className={`m-0 p-0 fs-3 fw-bolder ${styles.hvr}`}>Connect?</p>
+              {/* <p className={`m-0 p-0 fs-3 fw-bolder ${styles.hvr}`}>Connect?</p> */}
               <p
                 onClick={() => {
                   navigate("/projects");
