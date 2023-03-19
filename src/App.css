@@ -7,3 +7,45 @@
   border-radius: 16px;
   background-color: black;
 }
+.download-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 60px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 9999999;
+}
+.download-buttons a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.download-buttons a svg {
+  margin-right: 5px;
+}
+.download-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 9999999;
+}
+.download-button a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.download-button a svg {
+  margin-right: 5px;
+}
