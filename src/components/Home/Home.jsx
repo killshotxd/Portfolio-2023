@@ -32,7 +32,7 @@ const Home = () => {
           >
             <h2 className="fw-bolder">
               Hello, Myself{" "}
-              <span style={{ color: "#005b87" }}>MOHD HASSAN</span>
+              <span style={{ color: "rgb(206 124 124)" }}>MOHD HASSAN</span>
             </h2>
 
             <Lottie options={defaultOptions} height={300} width={300} />
