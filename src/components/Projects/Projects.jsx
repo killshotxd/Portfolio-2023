@@ -1,7 +1,17 @@
 import React from "react";
 import styles from "../Home/Home.module.css";
 import { RoughNotation } from "react-rough-notation";
+import Lottie from "react-lottie";
+import dev from "../../assets/133640-star-shape-lottie-animation.json";
 const Projects = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: dev,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <>
       <div className={styles.parallax}>
@@ -12,11 +22,19 @@ const Projects = () => {
         <section>
           <div className="container">
             <div className="row">
-              <h2 className="fw-bold text-center mt-4">
-                <RoughNotation type="underline" show={true}>
-                  Projects
-                </RoughNotation>
-              </h2>
+              <div className="d-flex mt-4 justify-content-center align-items-center">
+                <h2 className="fw-bold text-center ">
+                  <RoughNotation type="underline" show={true}>
+                    Projects
+                  </RoughNotation>
+                </h2>
+                <Lottie
+                  options={defaultOptions}
+                  height={100}
+                  width={100}
+                  style={{ margin: 0 }}
+                />
+              </div>
             </div>
           </div>
         </section>

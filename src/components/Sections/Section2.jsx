@@ -2,10 +2,22 @@ import React from "react";
 import styles from "./Section.module.css";
 import { RoughNotation } from "react-rough-notation";
 import { useEffect } from "react";
+import Lottie from "react-lottie";
+import dev from "../../assets/133580-rocket.json";
 const Section2 = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const defaultOptions = {
+    loop: false,
+    autoplay: true,
+    animationData: dev,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
   return (
     <section style={{ marginTop: "3rem", marginBottom: "5rem" }}>
       <div className={styles.parallax}>
@@ -15,11 +27,19 @@ const Section2 = () => {
 
         <div className="container">
           <div className="row">
-            <h2 className="text-center fw-bold">
-              <RoughNotation type="underline" show={true}>
-                My Experience
-              </RoughNotation>
-            </h2>
+            <div className="d-flex justify-content-center align-items-center">
+              <h2 className=" fw-bold">
+                <RoughNotation type="underline" show={true}>
+                  My Experience
+                </RoughNotation>
+              </h2>
+              <Lottie
+                options={defaultOptions}
+                height={100}
+                width={100}
+                style={{ margin: 0 }}
+              />
+            </div>
           </div>
         </div>
 
