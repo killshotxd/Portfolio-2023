@@ -7,6 +7,7 @@ import Header from "./components/Header/Header";
 // import Projects from "./components/Projects/Projects";
 import Lottie from "react-lottie";
 import load from "./assets/98431-loading-animation.json";
+import overall from "./assets/37740-spider.json";
 import { FaDownload } from "react-icons/fa";
 import {
   BsFillArrowLeftCircleFill,
@@ -25,6 +26,15 @@ const App = () => {
     loop: true,
     autoplay: true,
     animationData: load,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
+  const defaultOptions2 = {
+    loop: false,
+    autoplay: true,
+    animationData: overall,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -62,7 +72,17 @@ const App = () => {
           transform: `translate3d(${cursorXY.x}px, ${cursorXY.y}px, 0)`,
         }}
       />
-
+      <Lottie
+        options={defaultOptions2}
+        height={200}
+        width={200}
+        style={{
+          margin: 0,
+          position: "fixed",
+          bottom: "0",
+          transform: "rotate(180deg)",
+        }}
+      />
       <Header />
       <>
         {visible && (
