@@ -1,9 +1,18 @@
 import React, { useRef } from "react";
 import styles from "./Home.module.css";
-
+import Lottie from "react-lottie";
+import animationData from "../../assets/22.json";
 import Typewriter from "typewriter-effect";
 import Section1 from "../Sections/Section1";
 const Home = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   const myRef = useRef(null);
   const executeScroll = () => myRef.current.scrollIntoView();
   return (
@@ -19,12 +28,14 @@ const Home = () => {
 
           <div
             className="container d-flex flex-column justify-content-center align-items-center"
-            style={{ marginTop: "12rem" }}
+            style={{ marginTop: "6rem" }}
           >
             <h2 className="fw-bolder">
               Hello, Myself{" "}
-              <span style={{ color: "#005b87" }}>MOHD HASSAN</span> 🙋🏻‍♂️
+              <span style={{ color: "#005b87" }}>MOHD HASSAN</span>
             </h2>
+
+            <Lottie options={defaultOptions} height={300} width={300} />
             <h3 className="fw-bolder mt-3">
               Welcome To My Portfolio ({new Date().getFullYear()})
             </h3>
