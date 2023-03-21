@@ -85,12 +85,15 @@ const App = () => {
       </>
       <Suspense
         fallback={
-          <div className="d-flex m-auto justify-content-center align-items-center h-100">
+          <div
+            className="d-flex m-auto justify-content-center align-items-center"
+            style={{ height: "80vh" }}
+          >
             {" "}
             <Lottie
               options={defaultOptions}
-              height={100}
-              width={100}
+              height={400}
+              width={400}
               style={{ margin: 0 }}
             />
           </div>
