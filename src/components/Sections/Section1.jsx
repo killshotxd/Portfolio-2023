@@ -15,6 +15,7 @@ import {
   SiVite,
 } from "react-icons/si";
 import { Navigate, useNavigate } from "react-router-dom";
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
 const Section1 = () => {
   const Navigate = useNavigate();
   const myRef = useRef(null);
@@ -23,7 +24,7 @@ const Section1 = () => {
     <>
       <section>
         <div className="container">
-          <h2 className="text-center fw-bold mt-4">
+          <h2 className="text-center fw-bold ">
             <RoughNotation type="underline" show={true}>
               <span className="">TECH STACK I USE :</span>
             </RoughNotation>
@@ -31,7 +32,7 @@ const Section1 = () => {
         </div>
 
         <div className="container">
-          <div className="row" style={{ marginTop: "4rem" }}>
+          <div className="row" style={{ marginTop: "3rem" }}>
             <div className="col d-flex justify-content-center align-items-center">
               <button
                 className={` mt-3 d-flex align-items-center gap-2 justify-content-center ${styles.button55}`}
@@ -65,7 +66,7 @@ const Section1 = () => {
             </div>
           </div>
 
-          <div className="row mt-5">
+          <div className="row mt-4">
             <div className="col d-flex justify-content-center align-items-center">
               <button
                 className={` mt-3 d-flex align-items-center gap-2 justify-content-center ${styles.button55}`}
@@ -99,7 +100,7 @@ const Section1 = () => {
             </div>
           </div>
 
-          <div className="row mt-5">
+          <div className="row mt-4">
             <div className="col d-flex justify-content-center align-items-center">
               <button
                 className={` mt-3 d-flex align-items-center gap-2 justify-content-center ${styles.button55}`}
@@ -151,9 +152,9 @@ const Section1 = () => {
               onClick={() => {
                 Navigate("/exp");
               }}
-              className={` mt-3 ${styles.button55}`}
+              className={` mt-3 fw-bold d-flex justify-content-center align-items-center gap-3 ${styles.button55}`}
             >
-              My Experience
+              My Experience <BsFillArrowRightCircleFill />
             </button>
           </div>
         </div>

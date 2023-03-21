@@ -64,7 +64,7 @@ const Home = () => {
           {/* HEADINGS END */}
         </section>
 
-        <section style={{ height: "100vh" }} ref={myRef} id="2">
+        <section style={{ height: "80vh" }} ref={myRef} id="2">
           <Section1 />
         </section>
       </div>
