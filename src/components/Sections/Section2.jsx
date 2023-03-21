@@ -4,15 +4,25 @@ import { RoughNotation } from "react-rough-notation";
 import { useEffect } from "react";
 import Lottie from "react-lottie";
 import dev from "../../assets/133580-rocket.json";
+import star from "../../assets/133640-star-shape-lottie-animation.json";
 const Section2 = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   const defaultOptions = {
-    loop: false,
+    loop: true,
     autoplay: true,
     animationData: dev,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
+  const defaultOptions2 = {
+    loop: true,
+    autoplay: true,
+    animationData: star,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -49,10 +59,21 @@ const Section2 = () => {
               style={{ borderLeft: "2px solid #000" }}
               className="  d-flex flex-column justify-content-center align-items-start"
             >
-              <div style={{ marginLeft: "3rem" }} className="row fs-4  fw-bold">
-                <RoughNotation type="underline" show={true}>
-                  HTML, CSS and Js :
-                </RoughNotation>
+              <div
+                style={{ marginLeft: "3rem" }}
+                className="row fs-4 ml0res  fw-bold"
+              >
+                <div className="d-flex justify-content-center align-items-center">
+                  <Lottie
+                    options={defaultOptions2}
+                    height={70}
+                    width={70}
+                    style={{ margin: 0 }}
+                  />
+                  <RoughNotation type="underline" show={true}>
+                    HTML, CSS and Js :
+                  </RoughNotation>
+                </div>
               </div>
 
               <div style={{ marginLeft: "3rem" }}>
@@ -97,10 +118,21 @@ const Section2 = () => {
               style={{ borderLeft: "2px solid #000" }}
               className="  d-flex flex-column justify-content-center align-items-start"
             >
-              <div style={{ marginLeft: "3rem" }} className="row fs-4  fw-bold">
-                <RoughNotation type="underline" show={true}>
-                  ReactJs, NextJs, AngularJs, FireBase :
-                </RoughNotation>
+              <div
+                style={{ marginLeft: "3rem" }}
+                className="row fs-4 ml0res  fw-bold"
+              >
+                <div className="d-flex justify-content-center align-items-center">
+                  <Lottie
+                    options={defaultOptions2}
+                    height={70}
+                    width={70}
+                    style={{ margin: 0 }}
+                  />
+                  <RoughNotation type="underline" show={true}>
+                    ReactJs, NextJs, AngularJs, FireBase :
+                  </RoughNotation>
+                </div>
               </div>
 
               <div style={{ marginLeft: "3rem" }}>
@@ -148,16 +180,27 @@ const Section2 = () => {
               style={{ borderLeft: "2px solid #000" }}
               className="  d-flex flex-column justify-content-center align-items-start"
             >
-              <div style={{ marginLeft: "3rem" }} className="row fs-4  fw-bold">
-                <RoughNotation type="underline" show={true}>
-                  Work Experience :
-                </RoughNotation>
+              <div
+                style={{ marginLeft: "3rem" }}
+                className="row fs-4 ml0res  fw-bold"
+              >
+                <div className="d-flex justify-content-center align-items-center">
+                  <Lottie
+                    options={defaultOptions2}
+                    height={70}
+                    width={70}
+                    style={{ margin: 0 }}
+                  />
+                  <RoughNotation type="underline" show={true}>
+                    Work Experience :
+                  </RoughNotation>
+                </div>
               </div>
               {/* 1 */}
               <div>
                 <div
                   style={{ marginLeft: "3rem", marginTop: "3rem" }}
-                  className="row fs-5  fw-bold"
+                  className="row fs-5 ml0res  fw-bold"
                 >
                   <RoughNotation type="highlight" show={true}>
                     <span className="text-white">
