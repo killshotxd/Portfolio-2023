@@ -3,6 +3,7 @@ import styles from "../Home/Home.module.css";
 import { RoughNotation } from "react-rough-notation";
 import Lottie from "react-lottie";
 import dev from "../../assets/133640-star-shape-lottie-animation.json";
+
 const Projects = () => {
   const defaultOptions = {
     loop: true,
@@ -52,6 +53,7 @@ const Projects = () => {
 
                     <div className=" col" style={{ maxWidth: "fit-content" }}>
                       <img
+                        loading="lazy"
                         style={{ width: "35rem", minWidth: "20rem" }}
                         className="img-fluid"
                         src="https://github.com/killshotxd/GIF/blob/main/worldchat.gif?raw=true"
@@ -96,6 +98,7 @@ const Projects = () => {
 
                     <div className=" col" style={{ maxWidth: "fit-content" }}>
                       <img
+                        loading="lazy"
                         style={{ width: "35rem", minWidth: "20rem" }}
                         className="img-fluid"
                         src="https://github.com/killshotxd/GIF/blob/main/ProjectManager.gif?raw=true"
@@ -140,6 +143,7 @@ const Projects = () => {
 
                     <div className=" col" style={{ maxWidth: "fit-content" }}>
                       <img
+                        loading="lazy"
                         style={{ width: "35rem", minWidth: "20rem" }}
                         className="img-fluid"
                         src="https://github.com/killshotxd/GIF/blob/main/VideoBlaze.gif?raw=true"
@@ -185,9 +189,10 @@ const Projects = () => {
 
                     <div className=" col" style={{ maxWidth: "fit-content" }}>
                       <img
+                        loading="lazy"
                         style={{ width: "35rem", minWidth: "20rem" }}
                         className="img-fluid"
-                        src="https://github.com/killshotxd/GIF/blob/main/worldchat.gif?raw=true"
+                        src="https://github.com/killshotxd/GIF/blob/main/whats.gif?raw=true"
                         alt=""
                       />
                     </div>

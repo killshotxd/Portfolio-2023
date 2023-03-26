@@ -74,8 +74,8 @@ const App = () => {
       />
       <Lottie
         options={defaultOptions2}
-        height={200}
-        width={200}
+        height={150}
+        width={150}
         style={{
           margin: 0,
           position: "fixed",
