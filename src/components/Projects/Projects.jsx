@@ -54,7 +54,7 @@ const Projects = () => {
                       <img
                         style={{ width: "35rem", minWidth: "20rem" }}
                         className="img-fluid"
-                        src="https://github.com/killshotxd/Portfolio-2023/blob/main/src/assets/WorldChat.png?raw=true"
+                        src="https://github.com/killshotxd/GIF/blob/main/worldchat.gif?raw=true"
                         alt=""
                       />
                     </div>
@@ -98,7 +98,7 @@ const Projects = () => {
                       <img
                         style={{ width: "35rem", minWidth: "20rem" }}
                         className="img-fluid"
-                        src="https://github.com/killshotxd/Portfolio-2023/blob/main/src/assets/Projects%20Manager.png?raw=true"
+                        src="https://github.com/killshotxd/GIF/blob/main/ProjectManager.gif?raw=true"
                         alt=""
                       />
                     </div>
@@ -142,7 +142,7 @@ const Projects = () => {
                       <img
                         style={{ width: "35rem", minWidth: "20rem" }}
                         className="img-fluid"
-                        src="https://github.com/killshotxd/Portfolio-2023/blob/main/src/assets/Video%20Blaze.png?raw=true"
+                        src="https://github.com/killshotxd/GIF/blob/main/VideoBlaze.gif?raw=true"
                         alt=""
                       />
                     </div>
@@ -187,7 +187,7 @@ const Projects = () => {
                       <img
                         style={{ width: "35rem", minWidth: "20rem" }}
                         className="img-fluid"
-                        src="https://github.com/killshotxd/Portfolio-2023/blob/main/src/assets/WhatsOnMind.png?raw=true"
+                        src="https://github.com/killshotxd/GIF/blob/main/worldchat.gif?raw=true"
                         alt=""
                       />
                     </div>
